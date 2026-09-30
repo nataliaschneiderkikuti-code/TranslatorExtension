@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+
+  "name": "Minha Extensão",
+
+  "version": "1.0.0",
+
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+
+  "background": {
+    "service_worker": "src/background.ts"
+  },
+
+  "action": {
+    "default_title": "Tradutor",
+    "default_popup": "index.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "src/content.ts"
+      ]
+    }
+  ],
+  "icons": {
+    "32": "icon32.png"
+  }
+}

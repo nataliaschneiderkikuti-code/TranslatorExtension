@@ -1,0 +1,171 @@
+.popup-extensao {
+  width: 280px;
+
+  box-sizing: border-box;
+
+  padding: 16px;
+
+  font-family: Arial, sans-serif;
+
+  background-color: white;
+  color: #222;
+}
+
+
+.popup-extensao h2 {
+  margin: 0 0 16px 0;
+
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.popup-extensao label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  font-size: 14px;
+}
+
+
+/* Container do dropdown */
+
+.seletor-idioma {
+  width: 100%;
+}
+
+
+/* Botão principal */
+
+.botao-idioma {
+  box-sizing: border-box;
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  padding: 9px 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 7px;
+
+  background-color: white;
+  color: #222;
+
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+
+  cursor: pointer;
+
+  text-align: left;
+}
+
+
+.botao-idioma:hover {
+  background-color: #f5f5f5;
+}
+
+
+/* Nome do idioma */
+
+.nome-idioma {
+  flex: 1;
+}
+
+
+/* Bandeiras */
+
+.bandeira {
+  width: 24px;
+  height: 18px;
+
+  object-fit: cover;
+
+  flex-shrink: 0;
+
+  display: block;
+}
+
+
+/* Seta */
+
+.seta {
+  margin-left: auto;
+
+  font-size: 9px;
+
+  color: #555;
+}
+
+
+/* Dropdown */
+
+.opcoes-idioma {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  margin-top: 6px;
+  margin-bottom: 8px;
+
+  padding: 4px 0;
+
+  background-color: white;
+
+  border: 1px solid #ccc;
+  border-radius: 7px;
+
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.15);
+
+  overflow: hidden;
+}
+
+
+/* Opções */
+
+.opcao-idioma {
+  box-sizing: border-box;
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  padding: 9px 10px;
+
+  border: none;
+
+  background-color: white;
+  color: #222;
+
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+
+  cursor: pointer;
+
+  text-align: left;
+}
+
+
+.opcao-idioma:hover {
+  background-color: #f2f2f2;
+}
+
+
+/* Idioma selecionado */
+
+.opcao-idioma.idioma-selecionado {
+  background-color: #eeeeee;
+}
+
+
+.opcao-idioma.idioma-selecionado:hover {
+  background-color: #e5e5e5;
+}
