@@ -39,7 +39,6 @@ Clone o repositório e instale as dependências:
 
 ```bash
 npm install
-npm run build
 ```
 
 ## Executando o projeto
