@@ -54,12 +54,12 @@ dist/
 
 ## Carregando a extensão no Chrome
 
-Abra o Chrome.
-Acesse:
+1. Abra o Chrome.
+2. Acesse:
 chrome://extensions/
-Ative o Modo do desenvolvedor.
-Clique em Carregar sem compactação.
-Selecione a pasta dist/.
+3. Ative o Modo do desenvolvedor.
+4. Clique em Carregar sem compactação.
+5. Selecione a pasta dist/.
 
 Depois disso, a extensão estará disponível no navegador.
 
